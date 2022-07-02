@@ -16,7 +16,7 @@ class Producto(db.Model):
     nombre = db.Column(db.String(500))
     precio = db.Column(db.Integer)
     stock = db.Column(db.Integer)
-    desc = db.Column(db.String(1500))
+    desc = db.Column(db.String(500))
     imgurl = db.Column(db.String(200))
     def __init__(self,nombre,precio,stock,desc,imgurl):
         self.nombre = nombre

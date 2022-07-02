@@ -14,7 +14,7 @@ function guardar() {
         desc: d,
         imgurl: i
     }
-    let url = "http://localhost:5000/productos"
+    let url = "https://crud-shop-flask.herokuapp.com/productos"
     var options = {
         body: JSON.stringify(producto),
         method: 'POST',

@@ -26,7 +26,7 @@ function modificar() {
         desc: d,
         imgurl: i
     }
-    let url = "http://localhost:5000/productos/"+id
+    let url = "https://crud-shop-flask.herokuapp.com/productos/"+id
     var options = {
         body: JSON.stringify(producto),
         method: 'PUT',

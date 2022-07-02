@@ -7,7 +7,7 @@ if (document.getElementById("app")) {
             loading: true
         },
         created() {
-            var url = 'http://localhost:5000/productos'
+            var url = 'https://crud-shop-flask.herokuapp.com/productos'
             this.fetchData(url)
         },
         methods: {

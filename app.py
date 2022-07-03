@@ -7,7 +7,7 @@ from flask_marshmallow import Marshmallow
 app = Flask(__name__)
 CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://bc4024063755fd:f4255ec4@us-cdbr-east-06.cleardb.net/heroku_e751ede3c7944db'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://sql10503639:7siUgtepyF@sql10.freesqldatabase.com/sql10503639'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False
 db = SQLAlchemy(app)
 ma = Marshmallow(app)

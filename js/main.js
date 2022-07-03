@@ -23,7 +23,7 @@ if (document.getElementById("app")) {
                     })
             },
             eliminar(producto) {
-                const url = 'http://localhost:5000/producto/' + producto;
+                const url = 'https://crud-shop-flask.herokuapp.com/producto/' + producto;
                 var options = {
                     method: 'DELETE',
                 }
